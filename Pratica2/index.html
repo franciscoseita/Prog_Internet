@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Una Pagina Increible de la anahuac">
+    <!--Descripcion de la pagina y como buscarla en motor de busqueda-->
+    <meta name="keywords" content="blog de diseno web, desarrollo de paginas">
+    <!-- Keywords para que los motores de busqueda lo encuentren-->
+    <title>Mi Segunda Pagina Web</title>
+</head>
+<body>
+
+    <!--Tipo de Titulos H(N) hasta n=6-->
+    <h1>Titulo 1</h1>
+    <h2>Titulo 2</h2>
+    <h3>Titulo 3</h3>
+    <h4>Titulo 4</h4>
+    <h5>Titulo 5</h5>
+    <h6>Titulo 6</h6>
+    <br><!--Salto de linea-->
+
+    <ol><!-- lista ordenada-->
+        <li>Item 1</li> <!--Elementos de lista-->
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+
+    <ul><!-- lista desordenada-->
+        <li>Item 1</li> <!--Elementos de lista-->
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+
+    <hr><!--Linea de separacion-->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem.</p><!--Paragrafo-->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, unde.</p>
+    <!--La etiqueta p hace automaticamente la separacion entre paragrafos-->
+
+    <!--Tablas-->
+    <table border="5">
+    <thead> <!--Cabeza de la tabla-->
+       <tr>
+        <th>Nombre</th>
+        <th>Email</th>
+        <th>Edad</th>
+       </tr>
+    </thead>
+    <tbody> <!--Body de la tabla-->
+        <tr>
+            <td>Fabricio</td>
+            <td>fabi@gmail.com</td>
+            <td>47</td>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>Juan@gmail.com</td>
+            <td>43</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>pedro@gmail.com</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>antonio</td>
+            <td colspan="2">antonio@gmail.com</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2">Promedio</td>
+            <td>46</td>
+        </tr>
+    </tfoot>
+    </table>
+    <br><br><br><br><br>
+
+    <!--Formulario-->
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Escribe tu Nombre">
+        <!--Nombre-->
+        <br><br>
+        <label for="edad">Edad:</label>
+        <input type="number" name="edad" id="edad">
+        <!--Edad-->
+        <br><br>
+        <label for="password">password:</label>
+        <input type="password" name="password">
+        <!--Password-->
+        <br><br>
+        <label for="data">Date:</label>
+        <input type="date" name="data" min="2024-01-03" max="2024-01-10">
+        <!--fecha-->
+        <br><br>
+        <label for="correo">Correo:</label>
+        <input type="email" name="correo">
+        <!--Correo-->
+        <br><br>
+        <label for="notas">Notas:</label>
+        <textarea name="notas" id="" cols="10" rows="10" wrap="soft">Lorem ipsum dolor sit amet.</textarea>
+        <!--Notas-->
+        <br><br>
+        <label for="estado">estado:</label>
+        <select name="estado" id="estado">
+            <option value="">Seleccionar</option>
+            <option value="AGS">Aguascalietes</option>
+            <option value="TAB">Tabasco</option>
+            <option value="YUC">Yucatan</option>
+        </select>
+        <!--seleccion de una lista/ value es el valor que va pasar al sistema "Yucatan" valor = YUC-->
+        <br><br>
+        <label for="Cine">Cine</label>
+        <input type="checkbox" name="Cine" checked>
+        <label for="futbol">Futbol</label>
+        <input type="checkbox" name="Futbol">
+        <label for="series">Series</label>
+        <input type="checkbox" name="Series">
+        <!--Check Box / checked deja el cuadradito seleccionado si no tiene nada aparece vacio -->
+        <br><br>
+        <label for="Cine">Cine</label>
+        <input type="radio" name="Cine" checked>
+        <label for="futbol">Futbol</label>
+        <input type="radio" name="Cine">
+        <label for="series">Series</label>
+        <input type="radio" name="Cine">
+        <br><br>
+        <input type="submit" name="enviar" id="enviar" value="Enviar Formulario">
+        <!--Buttom que envia la informacion de los textos-->
+    </form>
+
+
+</body>
+</html>
