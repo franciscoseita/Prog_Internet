@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <img src="./img/transferir.jpg" alt="html" width="368"  height="175" class="logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav m-auto my-2 my-lg-0">
+              <li class="nav-item">
+                <a class="nav-link font" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font" href="#">Modelos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font" href="#">Servicios</a>
+              <li class="nav-item">
+                <a class="nav-link font" href="MyPorsche.html">MyPorsche</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="px-2 search font" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn0 font" type="submit"><span style="color: white;">Search</span></button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <!--Anuncio-->
+    <div class="video-container">
+        <video muted autoplay loop>
+          <source src="./img/ComerciaPorsche.mp4" type="video/mp4">
+        </video>
+        <div class="overlay-text">
+          <h1 class="font"> <span style="color: white;">60 years of the Porsche 911</span></h1>
+          <button class="btn btn-video font">Discubre el nuevo 911</button>
+        </div>
+    </div>
+    <!--Modelos-->
+      
+    <div>
+      <div class="separador">
+        <h1 class="font text-center">Nuestros Modelos</h1>
+      </div>
+    <div>
+        <section class="bg-white font p-5 text-left" >
+          <div class="container">
+              <div class="d-sm-flex">
+                  <div class="p-5">
+                      <h1>Porsche 911</h1>
+                      <p class="lead my-4">Experimenta la pura emoción de la conducción con el legendario Porsche 911 Carrera. ¡Haz que cada kilómetro sea una aventura inolvidable!</p>
+                      <p class="lead my-4">Berlina deportiva de lujo de 4 puertas</p>
+                      <p class="lead my-4">MXN 2.158.000,00*</p>
+                      <button type="button" class="btn " style="background-color: rgb(26, 23, 23); color: white;">Disena tu Carrera</button> <button type="button" class="btn mx-2 " style="background-color: rgb(26, 23, 23); color: white;">Disena tu Carrera</button>
+                  </div>
+                  <div id="hero-carousel" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active text-left c-item">
+                        <img src="./img/911_Carousel/911-sport-classic-001.jpg" class="d-block w-100 c-img" alt="...">
+                      </div>
+                      <div class="carousel-item c-item">
+                        <img src="./img/911_Carousel/911-sport-classic-002.jpg" class="d-block w-100 c-img" alt="...">
+                      </div>
+                      <div class="carousel-item c-item">
+                        <img src="./img/911_Carousel/911-sport-classic-003.jpg" class="d-block w-100 c-img" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="bg-white font p-5 text-left">
+          <div class="container">
+              <div class="d-sm-flex">
+                <div id="panamera" class="carousel slide">
+                  <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#panamera" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#panamera" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#panamera" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active text-left c-item">
+                      <img src="./img/718/S20_4904_fine.jpg" class="d-block w-100 c-img" alt="...">
+                    </div>
+                    <div class="carousel-item c-item">
+                      <img src="./img/718/S20_4929_fine.jpg" class="d-block w-100 c-img" alt="...">
+                    </div>
+                    <div class="carousel-item c-item">
+                      <img src="./img/718/S20_4931_fine.jpg" class="d-block w-100 c-img" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#panamera" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#panamera" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+                  <div class="p-5">
+                    <h1>Porsche Panamera</h1>
+                    <p class="lead my-4">Sumérgete en el lujo y la potencia incomparables del Porsche Panamera, donde cada curva es una experiencia única de elegancia y rendimiento</p>
+                    <p class="lead my-4">Berlina deportiva de lujo de 4 puertas</p>
+                    <p class="lead my-4">MXN 2.158.000,00*</p>
+                    <button type="button" class="btn " style="background-color: rgb(26, 23, 23); color: white;">Disena tu Carrera</button> <button type="button" class="btn mx-2 " style="background-color: rgb(26, 23, 23); color: white;">Disena tu Carrera</button>
+                </div>
+              </div>
+          </div>
+        </section>
+      </div>
+  </div>
+  <section class="bg-white font p-5 text-left" >
+    <div class="container">
+        <div class="d-sm-flex">
+            <div class="p-5">
+                <h1>Porsche Taycan</h1>
+                <p class="lead my-4">Experimenta la pura emoción de la conducción con el legendario Porsche 911 Carrera. ¡Haz que cada kilómetro sea una aventura inolvidable!</p>
+                <p class="lead my-4">Berlina deportiva de lujo de 4 puertas</p>
+                <p class="lead my-4">MXN 2.138.000,00*</p>
+                <button type="button" class="btn " style="background-color: rgb(26, 23, 23); color: white;">Disena tu Taycan</button> <button type="button" class="btn mx-2 " style="background-color: rgb(26, 23, 23); color: white;">Todas las versiones Taycan</button>
+            </div>
+            <div id="taycan" class="carousel slide">
+              <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#taycan" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#taycan" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#taycan" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active text-left c-item">
+                  <img src="./img/Taycan/Taycan_Basis_1.jpg" class="d-block w-100 c-img" alt="...">
+                </div>
+                <div class="carousel-item c-item">
+                  <img src="./img/Taycan/Taycan_Basis_2 (2).jpg" class="d-block w-100 c-img" alt="...">
+                </div>
+                <div class="carousel-item c-item">
+                  <img src="./img/Taycan/Taycan_Basis_5.jpg" class="d-block w-100 c-img" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#taycan" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#taycan" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+    </div>
+   </section>
+
+
+<!--MYPORSCHE-->
+   <div>
+    <div class="separador" style="margin-bottom: 40px;">
+      <h1 class="font text-center">My Porsche</h1>
+      <p class="font lead my-4 text-center" style="margin: 300px;">Explora el mundo visualmente cautivador de los últimos modelos de Porsche en nuestra sección de galería de fotos. Sumérgete en la belleza de los diseños más recientes, desde el icónico 911 hasta el impresionante Cayenne, y descubre cada detalle de estos automóviles de alta gama. Nuestra galería ofrece una visión panorámica de la excelencia en ingeniería y estilo que define a Porsche, brindándote una experiencia envolvente que deleitará tus sentidos y alimentará tu pasión por la conducción.</p>
+    </div>
+
+
+  <div class="photo-collage" style="margin-bottom: 20px;">
+    <img src="./img/718/S20_4904_fine.jpg" alt="Image 1">
+    <img src="./img/718/S20_4929_fine.jpg" alt="Image 2">
+    <img src="./img/718/S20_4931_fine.jpg" alt="Image 3">
+    <img src="./img/911_Carousel/911-sport-classic-001.jpg" alt="Image 4">
+    <img src="./img/911_Carousel/911-sport-classic-002.jpg" alt="Image 5">
+    <img src="./img/911_Carousel/911-sport-classic-003.jpg" alt="Image 6">
+  </div>
+  <footer class="footer font">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+ </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
